@@ -1,0 +1,32 @@
+{
+  "name": "kindlyscan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "@mui/x-data-grid": "^5.17.11",
+    "classnames": "^2.3.2",
+    "eslint": "^8.39.0",
+    "eslint-config-next": "^13.3.2",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "next": "^13.3.2",
+    "next-connect": "^0.13.0",
+    "next-with-apollo": "^5.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "serverless-mysql": "^1.5.4"
+  }
+}

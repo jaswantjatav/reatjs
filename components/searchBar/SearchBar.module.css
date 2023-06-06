@@ -1,0 +1,29 @@
+.searchbar{
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow: 3px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+
+.searchbar{
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow: 3px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(99%);
+    }
+
+    to {
+        transform: translateX(-155%);
+    }
+}

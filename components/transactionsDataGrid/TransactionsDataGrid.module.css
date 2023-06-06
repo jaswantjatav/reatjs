@@ -1,0 +1,43 @@
+.TransTable{
+
+}
+
+.customRowStyle{
+
+}
+
+.customColumnStyle{
+
+}
+
+.MuiDataGrid-cell{
+    max-width: 100% !important;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .TransTable{
+
+    }
+
+    .TransTable .MuiDataGrid-virtualScrollerRenderZone{
+
+    }
+
+    .TransTable .MuiDataGrid-row{
+
+    }
+    
+    .customRowStyle{
+
+    }
+
+    .customColumnStyle{
+
+    }
+    
+    .headerColumnStyle{
+
+    }
+}

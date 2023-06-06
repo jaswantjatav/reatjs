@@ -1,0 +1,88 @@
+.navLink {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.navLink:hover {
+    font-weight: bold;
+}
+
+.scrollText {
+    font-size: 12px;
+    /* animation properties */
+    /* transform: translateX(100%); */
+    animation: scroll-animation 25s ease-in-out infinite;
+}
+
+.brandbox{
+    width: 20%;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px;
+    border-radius: 4px;
+}
+
+.newsbox{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    color: #636363;
+    font-size: 12px;
+    background-color: #F5FAF1;
+    overflow-x: hidden;
+    white-space: nowrap;
+    border-radius: 1px;
+}
+
+.newsbar{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.apptoolbar{
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .brandbox{
+        width:100%;
+        max-width: 300px;
+        padding:0px;
+        margin:0 auto;
+    }
+
+    .apptoolbar{
+        display: block !important;
+        margin:0 auto !important;
+        padding:0px !important;
+        max-width:100% !important;
+        
+    }
+
+    .newsbox{
+        max-width: 100%;
+        padding: 10px 0px !important;
+        margin: 0px auto !important;
+    }
+    .newsbar{
+        padding:0px;
+        margin:0px !important;
+    }
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(99%);
+    }
+
+    to {
+        transform: translateX(-155%);
+    }
+}

@@ -1,0 +1,8 @@
+.sdgIcon {
+    margin: 1px;
+}
+
+.disabled {
+    opacity: 0.5;
+    mix-blend-mode: luminosity;
+}

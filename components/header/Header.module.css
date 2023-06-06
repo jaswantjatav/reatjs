@@ -1,0 +1,43 @@
+.socialimpact {}
+
+.socialtitle {}
+
+.socialcreatedby {}
+
+.id_address {
+
+    text-decoration: none !important;
+    color: black !important; 
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .socialimpact {
+        display: block !important;
+    }
+
+    .socialtitle {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .socialcreatedby {
+        display: block !important;
+    }
+
+    .separator {
+        display: none !important;
+    }
+
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(99%);
+    }
+
+    to {
+        transform: translateX(-155%);
+    }
+}

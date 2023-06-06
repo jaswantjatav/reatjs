@@ -1,0 +1,13 @@
+.filter {
+    mix-blend-mode: luminosity;
+}
+
+.summaryContainer {
+    border: 3px solid #9FCA6F;
+}
+
+@media screen and (max-width: 480px) {
+    .summerycard{
+        
+    }
+}
